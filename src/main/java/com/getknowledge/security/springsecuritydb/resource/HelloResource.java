@@ -14,7 +14,7 @@ public class HelloResource {
 		return "Hello All";
 	}
 	
-	@GetMapping("secured/all")
+	@GetMapping("/secured/all")
 	public String securedHello() {
 		
 		return "Hello Secured All";
